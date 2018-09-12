@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+</head>
+<body>
+<form method="POST" action="/">
+    <input type="text" name="data1" th:value="${data1}" />
+    +
+    <input type="text" name="data2" th:value="${data2}" />
+    <input type="submit" value="=" />
+    <text th:text="${gokei}">a</text>
+
+</form>
+</body>
+</html>
